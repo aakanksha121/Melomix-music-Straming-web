@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melomix</title>
+    <link rel="icon" href="/media/Untitled design.png">
+    <link rel="stylesheet" href="musicApp.css" class="css">
+    <script src="musicApp.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Top Nav -->
+    <header>
+        <section class="left">
+            <!-- <i class="fa-solid fa-bars"></i> -->
+
+            <!-- slidebar -->
+            <div class="main-box">
+                <input type="checkbox" id="check">
+                <div class="btn-one">
+                    <label for="check">
+                        <i class="fas fa-bars"></i>
+                        <h1 class="logo">Melomix Music</h1>
+                    </label>
+                </div>
+                <div class="slider-menu">
+                    <div class="slider-logo">
+                        <a href="#"> <i class="fa-solid fa-user-circle"></i> Hello, User</a>
+                    </div>
+                    <div class="btn-two">
+                        <label for="check">
+                            <i class="fas fa-times"></i>
+                        </label>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#"> <i class="fa-solid fa-house"></i>
+                                    Home</a> </li>
+                            <li><a href="#"><i class="fa-solid fa-heart"></i>
+                                    Faviourites</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-clock"></i>
+                                    Sleep Timer</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-moon"></i>
+                                    White Mode</a></li>
+
+                        </ul>
+
+                        <hr>
+                        <div class="premium">
+                            <h3>Go Premium</h3>
+                            <a href="#">Get Melomix Plus</a>
+                        </div>
+
+                        <div class="social-media">
+                            <ul>
+                                <a href="#"><i class="fa fa-facebook"></i> </a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"> <i class="fab fa-youtube"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="middle">
+            <input type="text" placeholder="search"> <i class="fa-solid fa-magnifying-glass"></i>
+        </section>
+        <section class="right">
+            <a href="/">Explore</a>
+            <i class="fa-solid fa-user-circle"></i>
+        </section>
+
+    </header>
+
+    <!-- main section -->
+    <div class="main-container">
+        <div class="container current-Song" id="currentSongBg">
+            <!-- <img src="/media/img1.png" alt=""> -->
+            <section class="top">
+                <h3> For You</h3>
+                <a href="https://artistwebsite.com">Other Songs from this creator</a>
+            </section>
+            <section class="bottom">
+                <div class="info" id="songInfo">
+                    <h2 class="song-name">Perfect</h2>
+                    <p>Song by <span class="author-name">Ed Sheeran</span> </p>
+                </div>
+
+
+            </section>
+
+
+        </div>
+
+        <div class="container related-Songs">
+
+            <div class="songList">
+                <!-- <h2>Best of NCS - No Copyright Sounds</h2> -->
+                <h2>Based On Your Listening</h2>
+                <!-- <h2>Top List</h2> -->
+                <div>
+                    <div class="songItem">
+
+                        <img src="/media/music1.jpeg" alt="">
+
+                        <span class="songs"> <span class="songName">
+                                <h3>Perfect</h3> Ed Shareen
+                            </span>
+                            <div class="songGIF">
+                                <img src="/media/playing.gif" alt="" class="GIF" id="GIF-0">
+                            </div>
+                        </span>
+                        <span class="songListPlay"><span class="timestamp">04:40 <i id="0"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+                    </div>
+
+                    <div class="songItem">
+
+                        <img src="/media/music2.jpeg" alt="">
+
+                        <span class="songs"> <span class="songName">
+                                <h3>Calm Down</h3> Rema
+                            </span>
+                            <div class="songGIF">
+                                <img src="/media/playing.gif" alt="" class="GIF" id="GIF-1">
+                            </div>
+                        </span>
+                        <span class="songListPlay"><span class="timestamp">03:59 <i id="1"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+                    </div>
+
+                    <div class="songItem">
+
+                        <img src="/media/music3.jpeg" alt="">
+
+                        <span class="songs"> <span class="songName">
+                                <h3>Until I Found You</h3> Stephen Sanchez
+                            </span>
+                            <div class="songGIF">
+                                <img src="/media/playing.gif" alt="" class="GIF" id="GIF-2">
+                            </div>
+                        </span>
+                        <span class="songListPlay"><span class="timestamp">02:56 <i id="2"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+                    </div>
+
+                    <div class="songItem">
+
+                        <img src="/media/music4.jpeg" alt="">
+
+                        <span class="songs"> <span class="songName">
+                                <h3>A Thousand Years</h3> Christina Perri
+                            </span>
+                            <div class="songGIF">
+                                <img src="/media/playing.gif" alt="" class="GIF" id="GIF-3">
+                            </div>
+                        </span>
+                        <span class="songListPlay"><span class="timestamp">04:48 <i id="3"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+                    </div>
+
+
+                    <div class="songItem">
+
+                        <img src="/media/music5.jpeg" alt="">
+
+                        <span class="songs"> <span class="songName">
+                                <h3>Butterflies</h3> MAX & Ali Gatie
+                            </span>
+                            <div class="songGIF">
+                                <img src="/media/playing.gif" alt="" class="GIF" id="GIF-4">
+                            </div>
+                        </span>
+                        <span class="songListPlay"><span class="timestamp">03:14 <i id="4"
+                                    class="fa-solid songItemPlay fa-circle-play"></i></span> </span>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <!-- footer section -->
+    <footer>
+        <section class="left">
+            <div class="disk play" id="diskBg"></div>
+
+            <div class="info footerInfo">
+                <h2 class="song-name">Perfect</h2>
+                <p>Song by <span class="author-name">Ed Sheeran</span> </p>
+            </div>
+        </section>
+
+        <section class="middle">
+
+            <i class="fa-regular fa-heart"></i>
+
+            <div class="player-section">
+                <div class="play-icons">
+                    <i class="fa-solid fa-backward-step" id="previous"></i>
+                    <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div>
+                <div class="song-slider">
+                    <input type="range" id="myProgressBar" min="0" value="0" max="100">
+                    <div class="time-stamp">
+                        <span class="current-time">00:00</span>
+                        <span class="song-duration">00:00</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <i class="fa-solid fa-download"></i>
+        </section>
+        <section class="right">
+            <i class="fa-solid fa-volume-high"></i>
+            <div class="vol">
+                <input type="range" min="0" max="100">
+            </div>
+        </section>
+
+
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/9c7553712d.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Melomix Music</title>
+  <script src="script.js" defer></script>
+  <script src="wallpaper.js" defer></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="signUp.css">
+  <link rel="icon" href="media/Untitled design.png">
+</head>
+
+<body>
+  <div class="image-slider">
+    <div class="slide active"><img src="media/marcela-laskoski-YrtFlrLo2DQ-unsplash.png" alt="">
+    </div>
+    <div class="slide "><img src="wallpaper/let the re (1).png" alt="">
+    </div>
+    <div class="slide"><img src="wallpaper/let the re.png" alt=""></div>
+    <div class="navigation">
+      <div class="btn active"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+    </div>
+  </div>
+
+  <section class="main_box">
+
+
+
+    <div class="text-content">
+      <header>
+        <section class="left">
+          <h1 class="logo">Melomix Music</h1>
+        </section>
+        <section class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <li><a id="signIn" >Sign In</a></li> -->
+            <button id="signIn" class="btn">Sign In</button>
+          </ul>
+        </section>
+      </header>
+
+      <div class="container">
+        <section class="main_content">
+          Listen Music
+          <h3 class="heading-text">
+            <span>Bring Your</span>
+            <span> Music To Life!</span>
+          </h3>
+          <p class="description">
+            "Experience music like never before - your sonic adventure starts
+            <br />
+            here! Dive into a world of melodies at Melomix."
+          </p>
+          <button class="explore-button btn">Explore Now</button>
+
+          <div class="features">
+            <div class="feature">
+              <h4> Personalized Playlists</h4>
+              <p>
+                Explore playlists curated just for you. Find music that perfectly
+                suits your mood and style.
+              </p>
+            </div>
+            <div class="feature">
+              <h4>Explore a Vast Library</h4>
+              <p>
+                Access a rich collection of high-quality audio tracks. From
+                classic hits to the latest releases.
+              </p>
+            </div>
+            <div class="feature">
+              <h4>Seamless Music Streaming</h4>
+              <p>
+                Enjoy uninterrupted music on all your devices. Listen anytime,
+                anywhere.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <div class="popup">
+
+    <div class="popup-content">
+
+
+
+      <div class="form-container">
+        <div class="curved-shaped"></div>
+        <div class="curved-shaped2"></div>
+        <!-- login form -->
+        <div class="form-box login">
+          <h2 class="animation" style="--D:0;--s:21;">Login</h2>
+          <form action="#">
+            <div class="input-box animation" style="--D:1; --s:22;">
+              <input type="text" name="uname" id="uname" required />
+              <label for="uname">Username</label>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box animation" style="--D:2; --s:23;">
+              <input type="password" name="password" id="password" minlength="8" required />
+              <label for="uname">Password</label>
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="input-box animation" style="--D:3; --s:24;">
+              <button class="form-btn" type="submit">Login</button>
+            </div>
+            <div class="forget-pass animation" style="--D:4; --s:25;">
+              <a href="">Forget Password</a>
+            </div>
+
+            <hr style="--D:5; --s:26;">
+            <div class="reg-link animation" style="--D:6; --s:27;">
+              <p>
+                Don't have an account ? <a href="#" class="signUpLink">Sign Up</a>
+              </p>
+            </div>
+          </form>
+        </div> <!--logIn box ended-->
+
+        <div class="info-content login">
+          <h2 class="animation" style="--D:0; --s:20;">WELCOME BACK!</h2>
+          <p class="animation" style="--D:1; --s:21;">Welcome back to your Melomix Music – your ultimate destination for
+            music streaming.</p>
+        </div>
+
+        <!-- Registration form -->
+        <div class="form-box register">
+          <h2 class="animation" style="--li:17; --s:0;">Register</h2>
+          <form action="#">
+            <div class="input-box animation" style="--li:18; --s:1;">
+              <input type="text" name="uname" id="uname" required />
+              <label for="uname">Username</label>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box animation" style="--li:19; --s:2;">
+              <input type="email" name="email" id="email" required />
+              <label for="email">Email</label>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box animation" style="--li:20; --s:3;">
+              <input type="password" name="password" id="password" minlength="8" required />
+              <label for="uname">Password</label>
+              <i class="fa-solid fa-email"></i>
+            </div>
+            <div class="input-box animation" style="--li:21; --s:4;">
+              <button class="form-btn" type="submit">Register</button>
+            </div>
+            <div class="reg-link animation" style="--li:22; --s:5;">
+              <p>
+                Don't have an account ? <a href="#" class="signInLink">Sign In</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <div class="info-content register">
+          <h2 class="animation" style="--li:17; --s:0;">WELCOME!</h2>
+          <p class="animation" style="--li:18; --s:1;">Welcome to Melomix Music! Begin your musical journey with us.</p>
+        </div>
+
+
+      </div><!--form-container ended-->
+    </div> <!--popup-content ended-->
+
+    <i class="fa-solid fa-close" id="close-popup"></i>
+  </div><!--popup ended-->
+
+
+  <script src="https://kit.fontawesome.com/9c7553712d.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

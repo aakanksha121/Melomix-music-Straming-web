@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Varela&family=Varela+Round&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html,
+body {
+    font-family: 'Varela Round', sans-serif;
+    height: 100vh;
+    /* color: #fff; */
+    /* color: black; */
+    /* background-color: #3d1c8b; */
+    background-color: #0a0a23;
+    /* background: linear-gradient(to right, #ffffff 0%, #3d1c8b 50%, #ffffff 100%); */
+
+
+    /* background-color: #1cb5c0; */
+
+
+    /* background-color: rgb(43, 95, 159); */
+}
+
+i:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    padding-left: 25px;
+    /* color: #fff; */
+    /* color: black; */
+    color: rgba(255, 110, 110, 0.8);
+    margin-left: 60px;
+}
+
+
+
+header {
+    display: flex;
+    height: 51px;
+    width: 100%;
+    color: rgba(255, 110, 110, 0.7);
+
+    /* color: #fff; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+header section {
+    display: flex;
+}
+
+.btn-one label {
+    display: flex;
+    align-items: center;
+}
+
+.btn-one label .fa-bars {
+    margin-top: 8px;
+    margin-left: 15px;
+    color: rgba(255, 110, 110, 0.7);
+}
+
+header .left .fa-bars:hover {
+    cursor: pointer;
+}
+
+header .right a {
+    text-decoration: none;
+
+    padding: 6px 12px;
+    border-radius: 20px;
+
+    /* background-color: white; */
+    color: rgba(255, 110, 110, 0.8);
+
+    /* color: black; */
+}
+
+
+
+header .right a:hover {
+    /* text-decoration: underline; */
+    /* background-color: rgba(255, 110, 110, 0.8); */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: rgba(255, 110, 110, 0.8);
+    /* color: rgb(197, 197, 22); */
+    color: #fff;
+}
+
+header .right .fa-user-circle {
+    padding: 0 47px 0 42px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+header .middle {
+    position: relative;
+}
+
+header .middle input {
+    width: 300px;
+
+    height: 25px;
+    border-radius: 5px;
+    padding: 14px;
+    margin-right: 146px;
+}
+
+header .middle .fa-magnifying-glass {
+    position: absolute;
+    left: 60%;
+    top: 6px;
+}
+
+.main-container {
+    /* min-height: 72vh; */
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* container */
+.container {
+
+    min-height: 72vh;
+    color: white;
+    width: 35vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0 0 25px;
+}
+
+.container.current-Song {
+
+    background: url(/media/music5.jpeg) center no-repeat;
+    background-size: cover;
+    /* border: 2px solid #fdb347; */
+}
+
+
+.container.related-Songs {
+
+    width: 45vw;
+
+    color: white;
+}
+
+.songItem {
+    height: 50px;
+
+    background-color: rgba(0, 0, 0, 0.08);
+    width: 90%;
+    display: flex;
+    margin: 18px 0 0 0;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.songItem:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.songItem .songs {
+    display: flex;
+
+    justify-content: center;
+    font-weight: 50;
+
+}
+
+.songItem .songs span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.songItem .songs .GIF {
+    opacity: 0;
+
+}
+
+.songItem span {
+    display: flex;
+    align-items: center;
+}
+
+.songItem img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 65px;
+    border-radius: 5px;
+    /* margin: 0 10px 0 10px; */
+}
+
+.songItem .timestamp {
+    padding-right: 23px;
+    gap: 5px;
+}
+
+.songItem .timestamp i:hover {
+    transform: scale(1.2);
+}
+
+.container .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .top a {
+    text-decoration: none;
+    color: black;
+    padding-right: 35px;
+}
+
+.container .top a:hover {
+    text-decoration: underline;
+    color: rgba(255, 110, 110, 0.8);
+}
+
+.container .bottom {
+    padding-bottom: 35px;
+}
+
+
+footer {
+    /* border-top: 4px solid #fdb347; */
+    background-color: rgba(255, 110, 110, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+    color: black;
+    position: sticky;
+
+}
+
+footer .left {
+    display: flex;
+    gap: 20px;
+}
+
+footer .left .disk {
+    position: relative;
+    display: block;
+    background: url('/media/music1.jpeg') center no-repeat;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 35px;
+    border: 1px solid black;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.07);
+
+    animation: rotate 20s linear infinite;
+
+}
+
+
+
+/* .disk::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #3d1c8b;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+footer .right {
+    padding: 0 32px 0 0;
+}
+
+footer .middle {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+
+
+footer .middle .fa-heart,
+.fa-download {
+    font-size: 22px;
+}
+
+footer .middle .play-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer .middle .play-icons i {
+    font-size: 25px;
+}
+
+
+footer .middle .player-section input {
+    margin-top: 6px;
+    width: 35vw;
+
+    height: 5px;
+    background-color: #d1d1d1;
+    border: none;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+footer .middle .player-section input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: -410px 0 0 405px black;
+    cursor: pointer;
+}
+
+footer .right {
+    display: flex;
+    gap: 8px;
+}
+
+footer .right input[type="range"] {
+    width: 6vw;
+    height: 5px;
+    border: none;
+    /* position: relative; */
+
+    background-color: #d1d1d1;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+
+
+
+footer .right input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: -410px 0 0 405px black;
+    cursor: pointer;
+}
+
+.main-container .bottom {
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.main-container .bottom .songGIF img {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.song-slider {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.current-time,
+.song-duration {
+    font-size: 16px;
+}
+
+.song-duration {
+    margin-left: 28.2vw;
+}
+
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* slider style */
+.main-box {
+    position: relative;
+    /* color: #fff; */
+}
+
+.main-box .slider-menu {
+    position: fixed;
+    height: 100vh;
+    width: 280px;
+    left: -280px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* background: #1cb5c0; */
+    background: #3d1c8b;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.slider-menu .slider-logo {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+.slider-menu .slider-logo a {
+    /* color: #fff; */
+    color: rgba(255, 110, 110, 0.7);
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    left: 40px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.slider-menu .menu {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+
+.slider-menu .menu li {
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+
+.slider-menu .menu i {
+    /* color: #fff; */
+    color: rgba(255, 110, 110, 0.7);
+    font-size: 20px;
+    padding-right: 8px;
+
+}
+
+
+.slider-menu .menu a {
+    /* color: #fff; */
+    color: rgba(255, 110, 110, 0.7);
+    ;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.slider-menu .menu li:hover {
+    border-left: 1px solid #fff;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+
+.slider-menu .social-media {
+    /* position: absolute; */
+    left: 50%;
+    /* bottom: 30px; */
+    /* transform: translateX(-50%); */
+    cursor: pointer;
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+.social-media ul a {
+    margin-left: 8px;
+}
+
+
+.social-media i {
+    text-decoration: none;
+    padding: 0 5px;
+    /* color: #fff; */
+    opacity: 0.6;
+    font-size: 20px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 50%;
+
+}
+
+.social-media a i:hover {
+    opacity: 1;
+    transition: all 0.2s linear;
+    transform: translate(0, -10px);
+
+}
+
+.social-media .fa-facebook:hover {
+    background-color: #3b5999;
+    color: #fff;
+}
+
+.social-media .fa-twitter:hover {
+    background-color: #55acee;
+    color: #fff;
+}
+
+.social-media .fa-instagram:hover {
+    background-color: #e4405f;
+    color: #fff;
+}
+
+.social-media .fa-youtube:hover {
+    background-color: red;
+    color: #fff;
+}
+
+
+#check {
+    display: none;
+}
+
+.main-box .btn-one i {
+    /* color: #fff; */
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s linear;
+}
+
+.premium {
+    margin: 20px 0 20px 20px;
+    line-height: 28px;
+}
+
+.premium a:hover {
+    text-decoration: underline;
+    color: white;
+    transform: scale(1.08);
+}
+
+.slider-menu .btn-two i {
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 240px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.btn-one i:hover {
+    font-size: 29px;
+}
+
+.btn-two i:hover {
+    font-size: 24px;
+}
+
+#check:checked~.slider-menu {
+    left: 0;
+}
+
+#check:checked~.btn-one i {
+    opacity: 0;
+}
+
+#check:checked~.slider-menu .btn-two i {
+    opacity: 1;
+}
