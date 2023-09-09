@@ -1,7 +1,7 @@
 console.log('Welcome to melomix');
 
 let songIndex=0;
-let audioElement=new Audio('/Songs/Perfect.mp3');
+let audioElement=new Audio('/Melomix-music-Straming-web/Songs/Perfect.mp3');
 let masterPlay=document.getElementById('masterPlay');
 let myProgressBar=document.getElementById('myProgressBar');
 let gifs= document.getElementsByClassName('GIF');
@@ -25,11 +25,11 @@ const songDuration=document.querySelector('.song-duration');
 
 
 let songs=[
-    {songName:"Perfect", duration:"", singerName:"Perfect",filePath:"/Songs/1.mp3",coverPath:"/media/music1.jpeg"},
-    {songName:"Calm Down", duration:"", singerName:"Rema",filePath:"/Songs/2.mp3",coverPath:"/media/music2.jpeg"},
-    {songName:"Until I Found You",duration:"", singerName:"Stephen Sanchez", filePath:"/Songs/3.mp3",coverPath:"/media/music3.jpeg"},
-    {songName:"A Thousand Years", duration:"", singerName:" Christina Perri", filePath:"/Songs/4.mp3",coverPath:"/media/music4.jpeg"},
-    {songName:"Butterflies", duration:"", singerName:"MAX & Ali Gatie", filePath:"/Songs/5.mp3",coverPath:"/media/music5.jpeg"}
+    {songName:"Perfect", duration:"", singerName:"Perfect",filePath:"/Melomix-music-Straming-web/Songs/1.mp3",coverPath:"/Melomix-music-Straming-web/media/music1.jpeg"},
+    {songName:"Calm Down", duration:"", singerName:"Rema",filePath:"/Melomix-music-Straming-web/Songs/2.mp3",coverPath:"/Melomix-music-Straming-web/media/music2.jpeg"},
+    {songName:"Until I Found You",duration:"", singerName:"Stephen Sanchez", filePath:"/Melomix-music-Straming-web/Songs/3.mp3",coverPath:"/Melomix-music-Straming-web/media/music3.jpeg"},
+    {songName:"A Thousand Years", duration:"", singerName:" Christina Perri", filePath:"/Melomix-music-Straming-web/Songs/4.mp3",coverPath:"/Melomix-music-Straming-web/media/music4.jpeg"},
+    {songName:"Butterflies", duration:"", singerName:"MAX & Ali Gatie", filePath:"/Melomix-music-Straming-web/Songs/5.mp3",coverPath:"/Melomix-music-Straming-web/media/music5.jpeg"}
 ]
 
 
