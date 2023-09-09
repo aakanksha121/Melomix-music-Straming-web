@@ -35,5 +35,5 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
 document.getElementById("signUpForm").addEventListener("submit", function(event) {
   event.preventDefault(); 
-  window.location.href = "/Melomix-music-Straming-web//Music App/musicApp.html"; 
+  window.location.href = "/Melomix-music-Straming-web/Music App/musicApp.html"; 
 });
