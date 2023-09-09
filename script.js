@@ -25,3 +25,15 @@ registerLink.addEventListener('click',()=>{
 loginLink.addEventListener('click',()=>{
   formcontainer.classList.remove('active');
 })
+
+
+
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+  event.preventDefault(); 
+  window.location.href = "/Music App/musicApp.html"; 
+});
+
+document.getElementById("signUpForm").addEventListener("submit", function(event) {
+  event.preventDefault(); 
+  window.location.href = "/Music App/musicApp.html"; 
+});

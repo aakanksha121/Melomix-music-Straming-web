@@ -14,15 +14,15 @@
 
 <body>
   <div class="image-slider">
-    <div class="slide active"><img src="media/marcela-laskoski-YrtFlrLo2DQ-unsplash.png" alt="">
+    <div class="slide active-slide"><img src="media/marcela-laskoski-YrtFlrLo2DQ-unsplash.png" alt="">
     </div>
     <div class="slide "><img src="wallpaper/let the re (1).png" alt="">
     </div>
     <div class="slide"><img src="wallpaper/let the re.png" alt=""></div>
     <div class="navigation">
-      <div class="btn active"></div>
-      <div class="btn"></div>
-      <div class="btn"></div>
+      <div class="slide-btn active-slide"></div>
+      <div class="slide-btn"></div>
+      <div class="slide-btn"></div>
     </div>
   </div>
 
@@ -103,7 +103,7 @@
         <!-- login form -->
         <div class="form-box login">
           <h2 class="animation" style="--D:0;--s:21;">Login</h2>
-          <form action="#">
+          <form id="loginForm" action="#">
             <div class="input-box animation" style="--D:1; --s:22;">
               <input type="text" name="uname" id="uname" required />
               <label for="uname">Username</label>
@@ -115,7 +115,7 @@
               <i class="fa-solid fa-lock"></i>
             </div>
             <div class="input-box animation" style="--D:3; --s:24;">
-              <button class="form-btn" type="submit">Login</button>
+              <button class="form-btn" id="Login" type="submit">Login</button>
             </div>
             <div class="forget-pass animation" style="--D:4; --s:25;">
               <a href="">Forget Password</a>
@@ -139,7 +139,7 @@
         <!-- Registration form -->
         <div class="form-box register">
           <h2 class="animation" style="--li:17; --s:0;">Register</h2>
-          <form action="#">
+          <form id="signUpForm" action="#">
             <div class="input-box animation" style="--li:18; --s:1;">
               <input type="text" name="uname" id="uname" required />
               <label for="uname">Username</label>
