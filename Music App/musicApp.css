@@ -145,7 +145,7 @@ header .middle .fa-magnifying-glass {
 
 .container.current-Song {
 
-    background: url(/media/music5.jpeg) center no-repeat;
+    background: url(/Melomix-music-Straming-web/media/music5.jpeg) center no-repeat;
     background-size: cover;
     /* border: 2px solid #fdb347; */
 }
@@ -258,7 +258,7 @@ footer .left {
 footer .left .disk {
     position: relative;
     display: block;
-    background: url('/media/music1.jpeg') center no-repeat;
+    background: url('/Melomix-music-Straming-web/media/music1.jpeg') center no-repeat;
     background-size: cover;
     width: 55px;
     height: 55px;
